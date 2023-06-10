@@ -4,9 +4,10 @@
 \usepackage{cancel}
 \usepackage{amsmath}
 \usepackage{ragged2e}
+\usepackage{nopageno}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
-\usepackage[a4paper, left=0.4cm, top=0.5cm, right=0.4cm]{geometry}
+\usepackage[a4paper, left=0.4cm, top=0.5cm, right=0.4cm, bottom=0.5cm]{geometry}
 
 
 
@@ -82,10 +83,23 @@ $P$ перпендикулярно касательной в данной точ
 $(\overrightarrow{\rho} - \overrightarrow{r}(t)) \cdot \overrightarrow{r}'(t) = 0$, где 
 $\overrightarrow{\rho}$ -- радиус-вектор произвольной точки плоскости $\pi$.\\
 
+\newpage
 \noindent
 \textbf{Соприкасающаяся плоскость}\\
 Пусть $\gamma$ -- некоторая кривая, $P \in \gamma$ -- фиксированная точка, $M \in \gamma$ --
 подвижная, $PT$ -- касательная к кривой в точке $P$, $PTM$ -- плоскость проведенная через
 касательную $PT$ и точку $M$.\\
+Плоскость $RTM$ стремится к плоскости $\pi$ при $M \to P$, если угол между этими плоскостями
+стремится к нулю, когда $M \to P$.\\
+Плоскость $\pi$, к которой стремится плоскость $PTM$, когда $M \to P$, называют
+соприкасающейся плоскостью кривой $\gamma$ в точке $P$.\\
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=60mm]{curve2.png}
+\end{figure}
+
+
+\noindent
+\textbf{Спрямляющая плоскость}\\
 
 \end{document}
