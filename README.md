@@ -1,2 +1,1 @@
-# geometry_debilnik_sem2
-базовые опеределения экзамена 2 сем геометрия
+# edu_geometry_23Q1
